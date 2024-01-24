@@ -1,9 +1,9 @@
 # myws
 my workspace
 
->> to forward gui apps to main desktop:
->> first in terminal: "xhost +local:"
-
+### to forward gui apps to main desktop:
+### first in terminal: "xhost +local:"
+```
 {
   "name": "my ros2 humble desktop",
   "dockerFile": "Dockerfile",
@@ -18,8 +18,10 @@ my workspace
     //"source=/home/dante/Desktop,target=/Desktop,type=bind"
   ]
 }
+```
 
->> to forward gui apps to VNC "localhost:6080":
+### to forward gui apps to VNC "localhost:6080":
+```
 {
   "name": "my ros2 humble desktop",
   "dockerFile": "Dockerfile",
@@ -45,3 +47,4 @@ my workspace
     }
   }
 }
+```
