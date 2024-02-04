@@ -1,0 +1,6 @@
+cd /myws
+mkdir -P ros2_ws/src
+cd /myws/ros2_ws
+colcon build
+cd /myws
+source setup.bash
