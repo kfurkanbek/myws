@@ -37,6 +37,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/InputMatrixExponentialDiscretizationFromSystemByAccuracy.srv"
   "srv/MatrixExponentialDiscretizationByStep.srv"
   "srv/MatrixExponentialDiscretizationByAccuracy.srv"
+  "srv/RegisterSignalsForNoiseByNoisePower.srv"
+  "srv/RegisterSignalsForNoiseBySNR.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)

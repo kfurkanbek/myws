@@ -1,0 +1,21 @@
+##### registers an array of signals for the noise insertion
+### supports up to 16 signal connections
+#
+### input 1 : comma or semicolon delimited the topic name array, in a single string
+#
+# "name_1,name_2; ... name_16"
+#
+### input 2 : the signal power (dB) array
+#
+# [power_1, power_2, ... power_16]
+#
+### input 3 : the signal-to-noise ratio array
+#
+# [snr_1, snr_2, ... snr_16]
+#
+#####
+string names
+float64[] powers
+float64[] snr
+---
+bool result

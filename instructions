@@ -4,3 +4,5 @@ cd /myws/ros2_ws
 colcon build
 cd /myws
 source setup.bash
+
+sudo apt install ros-$ROS_DISTRO-plotjuggler-ros
